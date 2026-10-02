@@ -148,9 +148,9 @@
 
 # Código:
 
-armazenamento_atual_tb = 3
-armazenamento_futuro_tb = armazenamento_atual_tb * (2**4)
-print("Armazenamento necessario daqui a 4 anos:" , armazenamento_futuro_tb, "tb")
+# armazenamento_atual_tb = 3
+# armazenamento_futuro_tb = armazenamento_atual_tb * (2**4)
+# print("Armazenamento necessario daqui a 4 anos:" , armazenamento_futuro_tb, "tb")
 
 
 # ==============================================================================
@@ -164,23 +164,23 @@ print("Armazenamento necessario daqui a 4 anos:" , armazenamento_futuro_tb, "tb"
 # Enunciado: 
 # 1. Use input() para capturar o nome do aluno.
 
-nome_aluno = input("Digite o nome do aluno: ")
+# nome_aluno = input("Digite o nome do aluno: ")
 
-# 2. Use input() para capturar as notas do 1º, 2º e 3º trimestre (lembre-se 
-#    de aplicar a conversão float() para que o Python entenda como matemática).
+# # 2. Use input() para capturar as notas do 1º, 2º e 3º trimestre (lembre-se 
+# #    de aplicar a conversão float() para que o Python entenda como matemática).
 
-nota1 = float(input("Digite a nota do 1º trimestre: "))
-nota2 = float(input("Digite a nota do 2º trimestre "))
-nota3 = float(input("Digite a nota do 3º trimestre "))
+# nota1 = float(input("Digite a nota do 1º trimestre: "))
+# nota2 = float(input("Digite a nota do 2º trimestre "))
+# nota3 = float(input("Digite a nota do 3º trimestre "))
 
-# Primeiro ele soma as notas (porque estão entre parênteses) e depois divide por 3.
+# # Primeiro ele soma as notas (porque estão entre parênteses) e depois divide por 3.
 
-media = (nota1 + nota2 + nota3) / 3
+# media = (nota1 + nota2 + nota3) / 3
 
-# 3. Calcule a média somando as 3 notas e dividindo por 3. (Cuidado com a 
-#    ordem de precedência matemática: use parênteses!).
-# 4. Exiba o resultado formatado (f-string) na tela para o professor: 
-#    "Sistema JWC: O aluno [nome] fechou o ano com média [media]".
+# # 3. Calcule a média somando as 3 notas e dividindo por 3. (Cuidado com a 
+# #    ordem de precedência matemática: use parênteses!).
+# # 4. Exiba o resultado formatado (f-string) na tela para o professor: 
+# #    "Sistema JWC: O aluno [nome] fechou o ano com média [media]".
 
-print(f"Sistema JWC: O aluno {nome_aluno} fechou o ano com a média {media:.2f}")
+# print(f"Sistema JWC: O aluno {nome_aluno} fechou o ano com a média {media:.2f}")
 
