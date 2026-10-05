@@ -106,14 +106,14 @@
 
 # Código:
 
-opcao_menu = 1
-match opcao_menu:
+# opcao_menu = 50
+# match opcao_menu:
 
-    case 1:
-        print("Iniciando varredura SAST no código fonte...")
-    case 2:
-        print("Iniciando processo de sanitização de metadados...")
-    case 3:
-        print("Gerando relatório OWASP de vulnerabilidades...")
-    case _:
-       print("Opção inválida. Tente novamente.")
+#     case 1:
+#         print("Iniciando varredura SAST no código fonte...")
+#     case 2:
+#         print("Iniciando processo de sanitização de metadados...")
+#     case 3:
+#         print("Gerando relatório OWASP de vulnerabilidades...")
+#     case _:
+#        print("Opção inválida. Tente novamente.")
