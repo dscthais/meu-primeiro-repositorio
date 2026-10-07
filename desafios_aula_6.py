@@ -5,6 +5,9 @@
 # Perfil Técnico: Eduarda - Desenvolvedora Plena (Full Stack)
 # ==============================================================================
 
+# EXIBE A FRASE 50 VEZES
+# ESTRUTURA DE REPETICAO
+
 # ==============================================================================
 # AVALIAÇÃO DE DESEMPENHO E MOMENTO REFLEXÃO
 # ==============================================================================
@@ -26,6 +29,35 @@
 # "Enviando mensagem via Whapi.Cloud para: [Nome]"
 
 # Código:
+# LISTA DE ESTUDANTES
+
+# novos_alunos = ["Ana","Carlos","Beatriz"]
+# print(novos_alunos[0])
+# print(novos_alunos[1])
+# print(novos_alunos[2])
+
+# numeros_de_telefones = [(21)975463666, (21)997299397]
+
+# OU TEMOS OUTRAS OPÇÕES DE USAR REPETIÇÕES
+
+# novos_alunos = ["Ana","Carlos","Beatriz","Thais","Monique","Karina"]
+# # print(novos_alunos[0])
+# # print(novos_alunos[1])
+# # print(novos_alunos[2])
+
+# #SITUAÇÃO REAL OTIMIZADA EDFICIENTE:
+# for aluno in novos_alunos:
+#     print(aluno)
+
+# EXEMPLOS DE LOOP COM A VOTAÇÃO 
+
+# nomes_para_votar = ["Thais", "Talita", "Monique"]
+
+# for nome in nomes_para_votar:
+#     print(f"DOCUMENTO - {nome}")
+#     print(f"ASSINAR - {nome}")
+#     print(f"VERIFICAR - {nome}")
+#     print(f"VOTAR - {nome}")
 
 
 # ==============================================================================
@@ -40,6 +72,12 @@
 
 # Código:
 
+# tentativas = 1
+
+# while tentativas <= 3:
+#     print(f"Tentativa de conexão DialogFlow: {tentativas}")
+#     tentativas = tentativas + 1
+
 
 # ==============================================================================
 # DESAFIO 3: Filtro de Intenções (Intents) (Laço 'for' com 'if')
@@ -53,6 +91,13 @@
 
 # Código:
 
+# intencoes = ["Duvida", "Matricula", "Reclamacao", "Matricula"]
+
+# for intencao in intencoes:
+#     if intencao == "Matricula":
+#         print("Processando fluxo de matrícula no Make.com...")
+#     else:
+#         print("Intenção ignorada.")
 
 # ==============================================================================
 # DESAFIO 4: Menu Interativo de Automação (Simulação de 'Do-While')
@@ -67,6 +112,15 @@
 
 # Código:
 
+# while True:
+#     opcao = int(input("Digite 1 para iniciar o chatbot ou 0 para sair: "))
+#     if opcao == 0:
+#         print("Encerrando sistema...")
+#         break
+#     if opcao == 1:
+#         print("Chatbot iniciado!")
+        
+
 
 # ==============================================================================
 # DESAFIO 5: Contagem Regressiva para Deploy (Função range)
@@ -77,7 +131,17 @@
 # uma contagem regressiva de 5 até 1. Ao final, imprima "Servidor reiniciado!".
 # Dica: range(inicio, parada, passo).
 
-# Código:
+# Exemplo
+# x = range(3, 6)
+# for n in x:
+# print(n)
+
+#Código
+
+contagem_regressiva = range(5, 0, -1)
+for contagem in contagem_regressiva:
+    print(contagem)
+print("Servidor reiniciado!")
 
 
 # ==============================================================================
